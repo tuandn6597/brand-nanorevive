@@ -1,0 +1,32 @@
+name: refresh-context
+
+# Dispatch-only on purpose: the scheduled refresh is driven once per week by the
+# matrix orchestrator `context-tooling/.github/workflows/refresh-all-brands.yml`.
+# Keeping this schedule-free means a week isn't refreshed twice. You can still
+# run this manually per brand.
+on:
+  workflow_dispatch:
+    inputs:
+      sources:
+        description: 'Sources to refresh: all | shopify,reddit,converge,richpanel,aircall'
+        required: false
+        default: 'all'
+      period:
+        description: 'ISO week to refresh (blank = current week), e.g. 2026-W33'
+        required: false
+        default: ''
+      fixture_all:
+        description: 'Run live sources (shopify, reddit) in fixture mode too (no live keys)'
+        required: false
+        type: boolean
+        default: false
+
+jobs:
+  refresh:
+    uses: tuandn6597/context-tooling/.github/workflows/refresh.yml@main
+    with:
+      brand: nanorevive
+      sources: ${{ inputs.sources || 'all' }}
+      period: ${{ inputs.period || '' }}
+      fixture_all: ${{ inputs.fixture_all || false }}
+    secrets: inherit
