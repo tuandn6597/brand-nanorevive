@@ -23,6 +23,8 @@ on:
 
 jobs:
   refresh:
+    permissions:
+      contents: write
     uses: tuandn6597/context-tooling/.github/workflows/refresh.yml@main
     with:
       brand: nanorevive
