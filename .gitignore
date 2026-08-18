@@ -1,0 +1,2 @@
+# Tooling checkout during CI runs — never commit this.
+context-tooling/
