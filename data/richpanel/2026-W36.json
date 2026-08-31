@@ -1,0 +1,38 @@
+{
+  "brand": "nanorevive",
+  "data": {
+    "ticketVolume": 4,
+    "topTags": [
+      {
+        "count": 2,
+        "tag": "refund"
+      },
+      {
+        "count": 2,
+        "tag": "shipping"
+      },
+      {
+        "count": 1,
+        "tag": "account"
+      },
+      {
+        "count": 1,
+        "tag": "product"
+      }
+    ],
+    "topThemes": [
+      {
+        "count": 3,
+        "theme": "usage question"
+      },
+      {
+        "count": 1,
+        "theme": "refund"
+      }
+    ]
+  },
+  "period": "2026-W36",
+  "schemaVersion": "v1",
+  "source": "richpanel",
+  "status": "ok"
+}
