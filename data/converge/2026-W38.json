@@ -1,0 +1,34 @@
+{
+  "brand": "nanorevive",
+  "data": {
+    "adSpend": 4945.65,
+    "attributedRevenue": 17112.56,
+    "attributionModel": "blended",
+    "blendedRoas": 3.46,
+    "byChannel": [
+      {
+        "attributedRevenue": 3312.08,
+        "channel": "Google",
+        "roas": 2.68,
+        "spend": 1234.1
+      },
+      {
+        "attributedRevenue": 6727.81,
+        "channel": "Meta",
+        "roas": 2.93,
+        "spend": 2294.31
+      },
+      {
+        "attributedRevenue": 7072.67,
+        "channel": "TikTok",
+        "roas": 4.99,
+        "spend": 1417.24
+      }
+    ],
+    "currency": "USD"
+  },
+  "period": "2026-W38",
+  "schemaVersion": "v1",
+  "source": "converge",
+  "status": "ok"
+}
