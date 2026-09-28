@@ -1,0 +1,54 @@
+{
+  "brand": "nanorevive",
+  "data": {
+    "ticketVolume": 6,
+    "topTags": [
+      {
+        "count": 5,
+        "tag": "product"
+      },
+      {
+        "count": 2,
+        "tag": "account"
+      },
+      {
+        "count": 1,
+        "tag": "billing"
+      },
+      {
+        "count": 1,
+        "tag": "refund"
+      },
+      {
+        "count": 1,
+        "tag": "shipping"
+      }
+    ],
+    "topThemes": [
+      {
+        "count": 2,
+        "theme": "usage question"
+      },
+      {
+        "count": 1,
+        "theme": "billing"
+      },
+      {
+        "count": 1,
+        "theme": "delivery delay"
+      },
+      {
+        "count": 1,
+        "theme": "product quality"
+      },
+      {
+        "count": 1,
+        "theme": "refund"
+      }
+    ]
+  },
+  "period": "2026-W40",
+  "schemaVersion": "v1",
+  "source": "richpanel",
+  "status": "ok"
+}
