@@ -1,0 +1,22 @@
+{
+  "brand": "nanorevive",
+  "data": {
+    "avgDurationSeconds": 347,
+    "callCount": 2,
+    "dispositions": [
+      {
+        "count": 1,
+        "disposition": "escalated"
+      },
+      {
+        "count": 1,
+        "disposition": "voicemail"
+      }
+    ],
+    "totalDurationSeconds": 694
+  },
+  "period": "2026-W41",
+  "schemaVersion": "v1",
+  "source": "aircall",
+  "status": "ok"
+}
